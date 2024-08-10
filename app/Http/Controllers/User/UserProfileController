@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class ProfileController extends Controller
+{
+    public function index()
+    {
+        // Votre logique pour récupérer les informations du profil de l'utilisateur
+        // Puis retourner la vue avec ces informations
+        return view('profiles.index');
+    }
+}
